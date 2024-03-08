@@ -9,11 +9,20 @@ export const defaultConfig: Config = {
   outputFileName: "output.json",
 };
 */
-
+/*
 export const defaultConfig: Config = {
   url: "https://www.bondconnect.ca/blog/",
   match: "https://www.bondconnect.ca/blog/**",
   selector: '.docs-body',
-  maxPagesToCrawl: 100,
+  maxPagesToCrawl: 200,
+  outputFileName: "output.json",
+};
+*/
+
+export const defaultConfig: Config = {
+  url: "https://doc-api-mtl.ubity.com/",
+  match: "https://doc-api-mtl.ubity.com/**",
+  selector: '.docs-body',
+  maxPagesToCrawl: 200,
   outputFileName: "output.json",
 };
